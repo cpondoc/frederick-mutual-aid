@@ -1,4 +1,27 @@
-.container {
+.head {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.subheader {
+  font-size: 20px;
+}
+
+.fieldName {
+  text-align: left !important;
+  justify-content: left !important;
+  align-items: left !important;
+}
+
+/*.container {
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
@@ -67,7 +90,7 @@
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+  font-family: "Noto Sans JP", Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
@@ -120,3 +143,4 @@
     flex-direction: column;
   }
 }
+ */
